@@ -6,6 +6,7 @@ metadata:
   annotations:
     jenkins.io/job-url: "http://localhost:9090/job/Test/"
     jenkins.io/job-full-name: "Test"
+    backstage.io/managed-by-location: url:https://github.com/emnoise/backstage-jenkins-plugin/edit/main/catalog-info.yaml
 spec:
   type: service
   lifecycle: production
