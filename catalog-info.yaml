@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Test
-  description: "Job Jenkins"
+  description: "Job Jenkins
+  annotations:
+    jenkins.io/job-url: "http://localhost:9090/job/Test/"
 spec:
   type: service
   lifecycle: production
-  owner: team-dev
-  jenkins:
-    jobUrl: "http://localhost:9090/job/Test/"
+  owner: group:default/team-dev
