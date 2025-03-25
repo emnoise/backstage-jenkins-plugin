@@ -8,3 +8,6 @@ spec:
   profile:
     displayName: "Team Dev"
     email: team-dev@example.com
+  members:
+    - user:development/guest
+  children: []
