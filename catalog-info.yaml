@@ -5,6 +5,10 @@ metadata:
   description: "Jenkins Job"
   annotations:
     jenkins.io/job-full-name: 'Folder/Test'
+  links:
+  - url: http://localhost:9090/
+    title: Test Jenkins
+    icon: dashboard
 spec:
   type: service
   lifecycle: production
