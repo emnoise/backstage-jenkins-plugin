@@ -5,6 +5,7 @@ metadata:
   description: "Jenkins Job"
   annotations:
     jenkins.io/job-full-name: 'Folder/Test'
+    jenkins.io/job-url: "http://localhost:9090/job/Folder/job/Test/"
   links:
   - url: http://localhost:9090/
     title: Test Jenkins
