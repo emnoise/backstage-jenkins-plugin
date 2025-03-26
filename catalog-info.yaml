@@ -4,7 +4,7 @@ metadata:
   name: Test
   description: "Jenkins Job"
   annotations:
-    jenkins.io/job-url: "http://localhost:9090/job/Test/"
+    jenkins.io/job-full-name: 'Folder/Test'
 spec:
   type: service
   lifecycle: production
